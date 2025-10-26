@@ -1,0 +1,13 @@
+{
+  "youtube": {
+    "UCXXXXXX1": "lastVideoId1",
+    "UCXXXXXX2": "lastVideoId2",
+    "UCXXXXXX3": "lastVideoId3",
+    "UCXXXXXX4": "lastVideoId4",
+    "UCXXXXXX5": "lastVideoId5"
+  },
+  "twitch": {
+    "streamername1": false,
+    "streamername2": false
+  }
+}
