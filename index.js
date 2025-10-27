@@ -79,13 +79,6 @@ async function checkForNewVideos() {
 // --- Client Ready ---
 client.once("ready", () => {
   console.log(`✅ Logged in as ${client.user.tag}`);
-
-  // Set bot presence
-  client.user.setPresence({
-    activities: [{ name: `Goshiggy sleep`, type: 3 }],
-    status: "online",
-  });
-
   // Run YouTube check immediately and then at intervals
   checkForNewVideos(); // run once immediately
   setInterval(checkForNewVideos, CHECK_INTERVAL); // repeat
