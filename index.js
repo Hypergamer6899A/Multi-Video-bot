@@ -9,7 +9,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 // --- Config ---
 const DISCORD_CHANNEL_ID = process.env.DISCORD_CHANNEL_ID;
-const CHECK_INTERVAL = parseInt(process.env.CHECK_INTERVAL_MS) || 60_000; // default 1 minute
+const CHECK_INTERVAL = parseInt(process.env.CHECK_INTERVAL_MS) || 600_000; // default 10 minute
 
 // YouTube channels
 const YT_API_KEY = process.env.YT_API_KEY;
